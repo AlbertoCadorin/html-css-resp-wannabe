@@ -128,12 +128,33 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* laptop */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+/* tablet */
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+}
 
  /* mobile */
 
  @media screen and (max-width: 480px) {
     .container{
-        width: 345px;
+        width: 100%;
         margin: 0 auto;
         padding: 0;
     }
@@ -172,3 +193,5 @@ img {
         width: 100%;
     }
  }
+
+
